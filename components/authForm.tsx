@@ -42,6 +42,8 @@ const AuthForm: FC<{ mode: 'signin' | 'signup' }> = ({ mode }) => {
             />
             <Button
               type="submit"
+              colorScheme="teal"
+              size="md"
               disabled={isLoading}
             >
               {mode}
