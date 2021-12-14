@@ -10,6 +10,7 @@ const Home = ({ artists }) => {
 
   return (
     <Masthead
+      color="gray"
       roundImage
       subtitle="Profile"
       title={`${user?.firstName} ${user?.lastName}`}
